@@ -3,12 +3,11 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: "export",
   basePath: "/nurcabbargok",
-  assetPrefix: "/nurcabbargok/",
-  trailingSlash: true,
   images: {
     unoptimized: true,
   },
-  reactCompiler: true,
+  // Ensure we don't have overlapping prefixes
+  trailingSlash: true,
 };
 
 export default nextConfig;

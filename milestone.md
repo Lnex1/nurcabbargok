@@ -8,9 +8,11 @@
 - [x] Ensure correct character usage in EN pages (no Turkish characters)
 
 ## Phase 2: Content Refinement
+- [x] Fix next.config.ts for cleaner GitHub Pages paths
 - [ ] Replace remaining placeholder images
 - [ ] Finalize legal texts (Privacy/Terms) with correct contact info
 
 ## Phase 3: Deployment
-- [ ] Push changes to GitHub repository
-- [ ] Verify GitHub Pages deployment
+- [x] Push changes to GitHub repository
+- [x] Set GitHub Pages source to GitHub Actions
+- [ ] Verify white screen issue fix
