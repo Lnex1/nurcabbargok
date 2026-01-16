@@ -1,0 +1,242 @@
+{
+    "meta": {
+        "title": "Nur CABBAR GÖK | Bağımsız Uygulama Geliştiricisi",
+        "description": "Sevgiyle tasarlanmış güzel mobil uygulamaları keşfedin. Zodiac Flow - Burç içgörüleriyle günlük ruh hali takipçiniz.",
+        "ogTitle": "Nur CABBAR GÖK - Bağımsız Geliştirici",
+        "ogDescription": "Güzel, düşünceli mobil deneyimler yaratıyorum."
+    },
+    "nav": {
+        "home": "Ana Sayfa",
+        "about": "Hakkımda",
+        "apps": "Uygulamalar",
+        "zodiacFlow": "Zodiac Flow",
+        "support": "İletişim",
+        "privacyPolicy": "Gizlilik Politikası",
+        "termsOfService": "Kullanım Koşulları",
+        "language": "EN"
+    },
+    "hero": {
+        "greeting": "Merhaba, ben",
+        "name": "Nur CABBAR GÖK",
+        "tagline": "Bağımsız Uygulama Geliştiricisi",
+        "subtitle": "Tutku ve amaçla güzel mobil deneyimler yaratıyorum. Zarif tasarımı anlamlı işlevsellikle birleştiren uygulamalar geliştiriyorum.",
+        "ctaPrimary": "Projelerime Göz Atın",
+        "ctaSecondary": "Bana Ulaşın"
+    },
+    "featuredApp": {
+        "title": "Öne Çıkan Uygulama",
+        "zodiacFlowName": "Zodiac Flow",
+        "zodiacFlowSubtitle": "Ruh Hali Takipçisi & Burç İçgörüleri",
+        "zodiacFlowDescription": "Günlük duygularınızı takip edin, kalıpları keşfedin ve burç işaretinizin kozmik enerjisiyle bağlantı kurun.",
+        "features": {
+            "moodTracking": "Güzel görsellerle günlük ruh hali takibi",
+            "zodiacInsights": "Kişiselleştirilmiş burç tabanlı içgörüler",
+            "analytics": "Duygu kalıpları ve analizler",
+            "community": "Burç topluluğunuzla bağlantı kurun"
+        },
+        "downloadAppStore": "App Store'dan İndir",
+        "viewPrivacy": "Gizlilik Politikası",
+        "viewTerms": "Kullanım Koşulları"
+    },
+    "comingSoon": {
+        "title": "Çok Yakında",
+        "subtitle": "Daha fazla düşünceli uygulama geliştiriliyor",
+        "placeholder1": {
+            "title": "Gizli Proje",
+            "description": "Güzel bir şeyler hazırlanıyor..."
+        },
+        "placeholder2": {
+            "title": "Gelecek Vizyon",
+            "description": "Güncellemeler için takipte kalın..."
+        }
+    },
+    "apps": {
+        "title": "Uygulamalarım",
+        "subtitle": "Özenle hazırlanmış mobil deneyimler koleksiyonum",
+        "zodiacFlow": {
+            "tagline": "Kozmik ruh hali arkadaşınız",
+            "shortDescription": "Ruh hallerini takip edin, burç içgörülerini keşfedin ve kozmik benliğinizle bağlantı kurun."
+        },
+        "viewDetails": "Detayları Gör",
+        "comingSoon": "Çok Yakında",
+        "privacyPolicy": "Gizlilik",
+        "termsOfService": "Koşullar"
+    },
+    "zodiacFlowPage": {
+        "title": "Zodiac Flow",
+        "subtitle": "Ruh Hali Takipçisi & Burç İçgörüleri",
+        "heroDescription": "Duygularınız ve kozmos arasındaki bağlantıyı keşfedin. Günlük ruh halinizi takip edin, burç işaretinize göre içgörüler edinin ve kozmik kaşifler topluluğuna katılın.",
+        "downloadNow": "Şimdi İndir",
+        "learnMore": "Daha Fazla Bilgi",
+        "features": {
+            "title": "Özellikler",
+            "moodTracking": {
+                "title": "Sezgisel Ruh Hali Takibi",
+                "description": "Duygularınızı güzel, kullanımı kolay bir arayüzle kaydedin. Notlar ekleyin, kalıpları takip edin ve kendinizi daha iyi anlayın."
+            },
+            "zodiacInsights": {
+                "title": "Burç İçgörüleri",
+                "description": "Burç işaretinize göre kişiselleştirilmiş içgörüler alın. Kozmik enerjinin duygusal yolculuğunuzu nasıl etkilediğini keşfedin."
+            },
+            "analytics": {
+                "title": "Analiz & Trendler",
+                "description": "Ruh hali kalıplarınızı zaman içinde görselleştirin. Tetikleyicileri belirleyin, başarıları kutlayın ve duygusal olarak büyüyün."
+            },
+            "community": {
+                "title": "Burç Topluluğu",
+                "description": "Aynı burcu paylaşan diğer kişilerle bağlantı kurun. Deneyimlerinizi paylaşın ve birbirinizi destekleyin."
+            },
+            "notifications": {
+                "title": "Nazik Hatırlatıcılar",
+                "description": "Takip alışkanlığınızı sürdürmenize yardımcı olacak özelleştirilebilir bildirimler."
+            },
+            "privacy": {
+                "title": "Önce Gizlilik",
+                "description": "Duygusal verileriniz sizindir. Gizliliğinizi ve veri güvenliğinizi ön planda tutuyorum."
+            }
+        },
+        "screenshots": {
+            "title": "Uygulama Önizlemesi",
+            "alt1": "Ruh hali seçim ekranı",
+            "alt2": "Günlük içgörüler görünümü",
+            "alt3": "Analiz kontrol paneli",
+            "alt4": "Topluluk akışı"
+        },
+        "pricing": {
+            "title": "Fiyatlandırma",
+            "subtitle": "Yolculuğunuza uygun planı seçin",
+            "free": {
+                "title": "Ücretsiz",
+                "price": "₺0",
+                "period": "sonsuza kadar",
+                "features": {
+                    "1": "Temel ruh hali takibi",
+                    "2": "Haftalık özetler",
+                    "3": "Temel burç içgörüleri"
+                },
+                "cta": "Başla"
+            },
+            "monthly": {
+                "title": "Premium Aylık",
+                "price": "₺79,99",
+                "period": "/ay",
+                "features": {
+                    "1": "Tüm Ücretsiz özellikler",
+                    "2": "Gelişmiş analizler",
+                    "3": "Sınırsız notlar",
+                    "4": "Topluluk erişimi",
+                    "5": "Reklamsız deneyim"
+                },
+                "cta": "Ücretsiz Denemeyi Başlat"
+            },
+            "yearly": {
+                "title": "Premium Yıllık",
+                "price": "₺449,99",
+                "period": "/yıl",
+                "badge": "%53 Tasarruf",
+                "features": {
+                    "1": "Tüm Premium özellikler",
+                    "2": "En iyi değer",
+                    "3": "Öncelikli destek"
+                },
+                "cta": "Ücretsiz Denemeyi Başlat"
+            },
+            "trialNote": "Tüm premium planlar 7 günlük ücretsiz deneme içerir. İstediğiniz zaman iptal edebilirsiniz.",
+            "appleNote": "Abonelikler App Store üzerinden yönetilir. Ödeme Apple ID hesabınıza yansıtılır."
+        },
+        "faq": {
+            "title": "Sıkça Sorulan Sorular",
+            "q1": {
+                "question": "Burç özelliği nasıl çalışıyor?",
+                "answer": "Doğum tarihinize göre, ruh hali kalıplarınızı burç özellikleriyle birleştiren kişiselleştirilmiş içgörüler sunuyorum. Duygusal yolculuğunuza kozmik bir perspektif katmanın eğlenceli bir yolu."
+            },
+            "q2": {
+                "question": "Verilerim gizli mi?",
+                "answer": "Kesinlikle. Ruh hali verileriniz güvenli bir şekilde saklanır ve asla üçüncü taraflarla paylaşılmaz. Uygulama ayarlarından istediğiniz zaman verilerinizi silebilirsiniz."
+            },
+            "q3": {
+                "question": "Aboneliğimi iptal edebilir miyim?",
+                "answer": "Evet, App Store abonelik ayarlarınızdan istediğiniz zaman iptal edebilirsiniz. Fatura döneminizin sonuna kadar erişiminiz devam eder."
+            },
+            "q4": {
+                "question": "Hangi cihazlar destekleniyor?",
+                "answer": "Zodiac Flow, iOS 15.0 veya üzeri çalışan iOS cihazlarda kullanılabilir."
+            }
+        }
+    },
+    "support": {
+        "title": "İletişim",
+        "subtitle": "Size yardımcı olmak için buradayım",
+        "description": "Sorularınız, geri bildirimleriniz var mı veya yardıma mı ihtiyacınız var? Sizden haber almak isterim.",
+        "contactTitle": "Bana Ulaşın",
+        "contactDescription": "E-posta ile ulaşın, en kısa sürede size geri döneceğim.",
+        "email": "nurcabbargok@gmail.com",
+        "emailButton": "E-posta Gönder",
+        "responseTitle": "Tahmini Yanıt Süresi",
+        "responseTime": "24 saat içinde",
+        "categories": {
+            "help": {
+                "title": "Yardım & Destek",
+                "description": "Uygulamalarım hakkında teknik destek veya sorularınız için."
+            },
+            "business": {
+                "title": "İş Birliği",
+                "description": "İş birliği teklifleri, medya veya diğer talepler için."
+            },
+            "feedback": {
+                "title": "Geri Bildirim",
+                "description": "Uygulamalarımı geliştirmem için fikirlerinizi paylaşın."
+            }
+        },
+        "faq": {
+            "title": "Sık Sorulan Sorular",
+            "q1": {
+                "question": "Şifremi nasıl sıfırlarım?",
+                "answer": "Uygulamanın giriş ekranında 'Şifremi Unuttum'a dokunarak ve e-postanıza gönderilen talimatları izleyerek şifrenizi sıfırlayabilirsiniz."
+            },
+            "q2": {
+                "question": "Satın alımlarımı nasıl geri yüklerim?",
+                "answer": "Uygulamada Ayarlar > Abonelik > Satın Alımları Geri Yükle'ye gidin. Orijinal satın alma için kullanılan aynı Apple ID ile giriş yaptığınızdan emin olun."
+            },
+            "q3": {
+                "question": "Uygulama düzgün çalışmıyor, ne yapmalıyım?",
+                "answer": "Uygulamayı kapatıp yeniden açmayı deneyin. Sorun devam ederse, en son sürüme güncellemeyi veya yeniden yüklemeyi deneyin. Sorunlar devam ederse benimle iletişime geçin."
+            }
+        },
+        "dataRequest": {
+            "title": "Veri & Gizlilik Talepleri",
+            "description": "Kişisel verileriniz üzerinde tam kontrole sahipsiniz.",
+            "deleteRequest": "Veri Silme Talebi",
+            "deleteDescription": "Hesabınızın ve ilişkili verilerin silinmesini talep etmek için lütfen 'Veri Silme Talebi' konu satırıyla ve hesabınızla ilişkili e-posta adresini içeren bir e-posta gönderin.",
+            "exportRequest": "Veri Dışa Aktarma Talebi",
+            "exportDescription": "Kişisel verilerinizin bir kopyasını almak için 'Veri Dışa Aktarma Talebi' konu satırıyla bana e-posta gönderin."
+        }
+    },
+    "privacy": {
+        "title": "Gizlilik Politikası",
+        "lastUpdated": "Son güncelleme",
+        "date": "Ocak 2025",
+        "toc": "İçindekiler"
+    },
+    "terms": {
+        "title": "Kullanım Koşulları",
+        "lastUpdated": "Son güncelleme",
+        "date": "Ocak 2025",
+        "toc": "İçindekiler"
+    },
+    "footer": {
+        "developerName": "Nur CABBAR GÖK",
+        "tagline": "Bağımsız Uygulama Geliştiricisi",
+        "quickLinks": "Hızlı Bağlantılar",
+        "legal": "Yasal",
+        "connect": "Bağlantı",
+        "copyright": "© 2025 Nur CABBAR GÖK. Tüm hakları saklıdır.",
+        "madeWith": "Türkiye'de ❤️ ile yapıldı"
+    },
+    "common": {
+        "loading": "Yükleniyor...",
+        "error": "Bir hata oluştu",
+        "tryAgain": "Tekrar Dene",
+        "backToHome": "Ana Sayfaya Dön"
+    }
+}
