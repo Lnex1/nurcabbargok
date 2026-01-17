@@ -5,17 +5,17 @@ const locale = "en";
 
 export default function TermsOfServicePage() {
     const sections = [
-        { id: "acceptance", title: "Acceptance of Terms" },
-        { id: "description", title: "Description of Service" },
-        { id: "account", title: "Account Registration" },
-        { id: "subscriptions", title: "Subscriptions and Payments" },
-        { id: "user-conduct", title: "User Conduct" },
-        { id: "intellectual-property", title: "Intellectual Property" },
-        { id: "disclaimer", title: "Disclaimer of Warranties" },
-        { id: "limitation", title: "Limitation of Liability" },
+        { id: "eligibility", title: "Eligibility" },
+        { id: "account", title: "Account Requirement" },
+        { id: "app-usage", title: "App Usage" },
+        { id: "user-content", title: "User Content" },
+        { id: "subscriptions", title: "Subscriptions and Free Trial" },
+        { id: "advertising", title: "Advertising" },
         { id: "termination", title: "Termination" },
-        { id: "governing-law", title: "Governing Law" },
-        { id: "contact", title: "Contact Us" },
+        { id: "disclaimer", title: "Disclaimer" },
+        { id: "limitation", title: "Limitation of Liability" },
+        { id: "changes", title: "Changes to These Terms" },
+        { id: "contact", title: "Contact" },
     ];
 
     return (
@@ -61,136 +61,122 @@ export default function TermsOfServicePage() {
                         {/* Main Content */}
                         <div className="flex-1">
                             <div className="prose prose-neutral max-w-none">
-                                {/* Acceptance */}
-                                <section id="acceptance" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">Acceptance of Terms</h2>
-                                    <p className="text-neutral-600 mb-4">
-                                        [PLACEHOLDER: Replace with your actual terms of service introduction]
-                                    </p>
+                                {/* Introduction */}
+                                <section className="mb-12">
                                     <p className="text-neutral-600">
-                                        By downloading, installing, or using Zodiac Flow (&quot;the App&quot;), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the App.
+                                        By downloading, accessing, or using Zodiac Flow: Mood Tracker, you agree to these Terms of Service (&quot;Terms&quot;). If you do not agree, please do not use the App.
                                     </p>
                                 </section>
 
-                                {/* Description */}
-                                <section id="description" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">Description of Service</h2>
-                                    <p className="text-neutral-600 mb-4">
-                                        [PLACEHOLDER: Replace with actual service description]
-                                    </p>
+                                {/* Eligibility */}
+                                <section id="eligibility" className="mb-12">
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">1. Eligibility</h2>
                                     <p className="text-neutral-600">
-                                        Zodiac Flow is a mood tracking application that allows users to log their daily emotions, receive zodiac-based insights, and connect with a community of like-minded individuals.
+                                        You must be at least 13 years old to use Zodiac Flow.
                                     </p>
                                 </section>
 
                                 {/* Account */}
                                 <section id="account" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">Account Registration</h2>
-                                    <p className="text-neutral-600 mb-4">
-                                        [PLACEHOLDER: Replace with actual account registration terms]
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">2. Account Requirement</h2>
+                                    <p className="text-neutral-600">
+                                        Zodiac Flow: Mood Tracker requires users to create an account to access core features. You are responsible for maintaining the confidentiality of your account credentials.
                                     </p>
+                                </section>
+
+                                {/* App Usage */}
+                                <section id="app-usage" className="mb-12">
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">3. App Usage</h2>
+                                    <p className="text-neutral-600 mb-4">
+                                        You agree to use Zodiac Flow: Mood Tracker only for lawful purposes and in accordance with these Terms.
+                                    </p>
+                                    <p className="text-neutral-600 mb-2">You must not:</p>
                                     <ul className="list-disc list-inside text-neutral-600 space-y-2">
-                                        <li>You must provide accurate and complete information when creating an account</li>
-                                        <li>You are responsible for maintaining the security of your account</li>
-                                        <li>You must notify us immediately of any unauthorized access</li>
-                                        <li>You must be at least 13 years old to use the App</li>
+                                        <li>Misuse the App</li>
+                                        <li>Attempt to access other users&apos; data</li>
+                                        <li>Interfere with the App&apos;s operation</li>
                                     </ul>
+                                </section>
+
+                                {/* User Content */}
+                                <section id="user-content" className="mb-12">
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">4. User Content</h2>
+                                    <p className="text-neutral-600 mb-4">
+                                        You retain ownership of the content you submit (such as mood entries and notes).
+                                    </p>
+                                    <p className="text-neutral-600">
+                                        By submitting content, you grant Zodiac Flow: Mood Tracker permission to store and process it solely for providing App functionality.
+                                    </p>
                                 </section>
 
                                 {/* Subscriptions */}
                                 <section id="subscriptions" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">Subscriptions and Payments</h2>
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">5. Subscriptions and Free Trial</h2>
                                     <p className="text-neutral-600 mb-4">
-                                        [PLACEHOLDER: Replace with actual subscription terms]
+                                        Zodiac Flow: Mood Tracker offers optional paid subscriptions via Apple In-App Purchases.
                                     </p>
                                     <ul className="list-disc list-inside text-neutral-600 space-y-2">
-                                        <li>Subscriptions are billed through your Apple ID account</li>
-                                        <li>Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period</li>
-                                        <li>You can manage and cancel subscriptions in your App Store account settings</li>
-                                        <li>Free trial periods may be offered and will convert to paid subscriptions unless cancelled</li>
+                                        <li>Subscriptions may include a free trial period.</li>
+                                        <li>Subscriptions automatically renew unless canceled through your Apple account.</li>
+                                        <li>Pricing and renewal terms are displayed at the time of purchase.</li>
                                     </ul>
                                 </section>
 
-                                {/* User Conduct */}
-                                <section id="user-conduct" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">User Conduct</h2>
-                                    <p className="text-neutral-600 mb-4">
-                                        [PLACEHOLDER: Replace with actual user conduct rules]
-                                    </p>
-                                    <p className="text-neutral-600">You agree not to:</p>
-                                    <ul className="list-disc list-inside text-neutral-600 space-y-2 mt-4">
-                                        <li>Use the App for any illegal or unauthorized purpose</li>
-                                        <li>Harass, abuse, or harm other users</li>
-                                        <li>Upload malicious content or attempt to interfere with the App&apos;s functionality</li>
-                                        <li>Impersonate others or provide false information</li>
-                                        <li>Violate any applicable laws or regulations</li>
-                                    </ul>
-                                </section>
-
-                                {/* Intellectual Property */}
-                                <section id="intellectual-property" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">Intellectual Property</h2>
-                                    <p className="text-neutral-600 mb-4">
-                                        [PLACEHOLDER: Replace with actual IP terms]
-                                    </p>
+                                {/* Advertising */}
+                                <section id="advertising" className="mb-12">
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">6. Advertising</h2>
                                     <p className="text-neutral-600">
-                                        All content, features, and functionality of the App are owned by Fatma Nur CABBAR GOK and are protected by copyright, trademark, and other intellectual property laws.
-                                    </p>
-                                </section>
-
-                                {/* Disclaimer */}
-                                <section id="disclaimer" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">Disclaimer of Warranties</h2>
-                                    <p className="text-neutral-600 mb-4">
-                                        [PLACEHOLDER: Replace with actual disclaimers]
-                                    </p>
-                                    <p className="text-neutral-600">
-                                        THE APP IS PROVIDED &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; WITHOUT ANY WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED. WE DO NOT WARRANT THAT THE APP WILL BE UNINTERRUPTED, ERROR-FREE, OR SECURE.
-                                    </p>
-                                </section>
-
-                                {/* Limitation */}
-                                <section id="limitation" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">Limitation of Liability</h2>
-                                    <p className="text-neutral-600 mb-4">
-                                        [PLACEHOLDER: Replace with actual liability limitations]
-                                    </p>
-                                    <p className="text-neutral-600">
-                                        TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF THE APP.
+                                        The free version of Zodiac Flow: Mood Tracker includes advertisements. Premium subscribers receive an ad-free experience.
                                     </p>
                                 </section>
 
                                 {/* Termination */}
                                 <section id="termination" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">Termination</h2>
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">7. Termination</h2>
                                     <p className="text-neutral-600 mb-4">
-                                        [PLACEHOLDER: Replace with actual termination terms]
+                                        We reserve the right to suspend or terminate accounts that violate these Terms.
                                     </p>
                                     <p className="text-neutral-600">
-                                        We may terminate or suspend your account and access to the App at any time, without prior notice, for conduct that we believe violates these Terms of Service or is harmful to other users or to us.
+                                        You may stop using the App at any time by deleting your account.
                                     </p>
                                 </section>
 
-                                {/* Governing Law */}
-                                <section id="governing-law" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">Governing Law</h2>
+                                {/* Disclaimer */}
+                                <section id="disclaimer" className="mb-12">
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">8. Disclaimer</h2>
                                     <p className="text-neutral-600 mb-4">
-                                        [PLACEHOLDER: Replace with actual governing law details]
+                                        Zodiac Flow: Mood Tracker provides mood tracking and informational insights only.
                                     </p>
                                     <p className="text-neutral-600">
-                                        These Terms shall be governed by and construed in accordance with the laws of Turkey, without regard to its conflict of law provisions.
+                                        The App does not provide medical, psychological, or professional advice.
+                                    </p>
+                                </section>
+
+                                {/* Limitation */}
+                                <section id="limitation" className="mb-12">
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">9. Limitation of Liability</h2>
+                                    <p className="text-neutral-600">
+                                        To the maximum extent permitted by law, Zodiac Flow: Mood Tracker shall not be liable for any indirect or consequential damages arising from the use of the App.
+                                    </p>
+                                </section>
+
+                                {/* Changes */}
+                                <section id="changes" className="mb-12">
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">10. Changes to These Terms</h2>
+                                    <p className="text-neutral-600">
+                                        We may update these Terms periodically. Continued use of the App after changes means you accept the updated Terms.
                                     </p>
                                 </section>
 
                                 {/* Contact */}
                                 <section id="contact" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">Contact Us</h2>
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">11. Contact</h2>
                                     <p className="text-neutral-600 mb-4">
-                                        If you have any questions about these Terms of Service, please contact us:
+                                        For questions regarding these Terms, contact:
                                     </p>
                                     <div className="card p-6 bg-pastel-purple/30">
                                         <p className="text-neutral-700">
-                                            <strong>Email:</strong> nurcabbargok@gmail.com
+                                            <strong>📧 Email:</strong> n.cabbargok@gmail.com
                                         </p>
                                         <Link
                                             href="/en/support/"

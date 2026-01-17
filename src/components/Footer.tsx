@@ -140,7 +140,7 @@ export default function Footer({ locale }: FooterProps) {
                             {t("footer.connect", locale)}
                         </h3>
                         <p className="text-neutral-600 text-sm mb-4">
-                            nurcabbargok@gmail.com
+                            n.cabbargok@gmail.com
                         </p>
                         <p className="text-neutral-500 text-sm">
                             {t("footer.madeWith", locale)}

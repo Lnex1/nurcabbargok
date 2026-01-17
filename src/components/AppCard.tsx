@@ -13,6 +13,10 @@ export default function AppCard({ app, locale, featured = false }: AppCardProps)
     const basePath = "/nurcabbargok";
     const isComingSoon = app.status === "coming-soon";
 
+    // Get localized name and tagline if useI18n is true
+    const displayName = app.useI18n ? t(app.name, locale) : app.name;
+    const displayTagline = app.useI18n ? t(app.tagline, locale) : app.tagline;
+
     return (
         <div
             className={`card hover-lift relative overflow-hidden ${featured ? "p-8" : "p-6"
@@ -33,7 +37,7 @@ export default function AppCard({ app, locale, featured = false }: AppCardProps)
                 {app.id === "zodiac-flow" ? (
                     <Image
                         src={`${basePath}/brand/icon.png`}
-                        alt={app.name}
+                        alt={displayName}
                         width={featured ? 80 : 64}
                         height={featured ? 80 : 64}
                         className="object-cover rounded-xl"
@@ -60,12 +64,12 @@ export default function AppCard({ app, locale, featured = false }: AppCardProps)
                 className={`font-semibold text-neutral-800 ${featured ? "text-2xl mb-2" : "text-lg mb-1"
                     }`}
             >
-                {app.name}
+                {displayName}
             </h3>
             <p
                 className={`text-neutral-500 ${featured ? "text-base mb-4" : "text-sm mb-3"}`}
             >
-                {app.tagline}
+                {displayTagline}
             </p>
 
             {/* Features (for featured cards) */}

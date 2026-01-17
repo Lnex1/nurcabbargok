@@ -29,6 +29,7 @@ export interface AppData {
     appStoreUrl: string;
     status: "available" | "coming-soon";
     features: string[];
+    useI18n?: boolean;
 }
 
 // Navigation item

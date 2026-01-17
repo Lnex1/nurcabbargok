@@ -7,11 +7,15 @@ export default function PrivacyPolicyPage() {
     const sections = [
         { id: "introduction", title: "Giriş" },
         { id: "information-collection", title: "Topladığımız Bilgiler" },
-        { id: "information-use", title: "Bilgilerinizi Nasıl Kullanıyoruz" },
-        { id: "data-storage", title: "Veri Saklama ve Güvenlik" },
-        { id: "third-party", title: "Üçüncü Taraf Hizmetleri" },
-        { id: "your-rights", title: "Haklarınız" },
+        { id: "authentication", title: "Kimlik Doğrulama" },
+        { id: "advertising", title: "Reklamcılık" },
+        { id: "payments", title: "Ödemeler ve Abonelikler" },
+        { id: "analytics", title: "Analitik" },
+        { id: "notifications", title: "Bildirimler" },
+        { id: "data-sharing", title: "Veri Paylaşımı" },
+        { id: "data-retention", title: "Veri Saklama" },
         { id: "children", title: "Çocukların Gizliliği" },
+        { id: "your-rights", title: "Haklarınız" },
         { id: "changes", title: "Politika Değişiklikleri" },
         { id: "contact", title: "İletişim" },
     ];
@@ -63,121 +67,169 @@ export default function PrivacyPolicyPage() {
                                 <section id="introduction" className="mb-12">
                                     <h2 className="text-2xl font-bold text-neutral-900 mb-4">Giriş</h2>
                                     <p className="text-neutral-600 mb-4">
-                                        [PLACEHOLDER: Gerçek gizlilik politikası giriş metni ile değiştirin]
+                                        Zodiac Flow: Mood Tracker (&quot;Uygulama&quot;, &quot;biz&quot;, &quot;bizim&quot; veya &quot;bize&quot;) kullanıcıların günlük ruh hallerini takip etmelerine ve toplu içgörüleri görüntülemelerine yardımcı olmak için tasarlanmış bir mobil uygulamadır. Gizliliğinize saygı duyuyor ve kişisel verilerinizi korumayı taahhüt ediyoruz.
                                     </p>
                                     <p className="text-neutral-600">
-                                        Bu Gizlilik Politikası, Fatma Nur CABBAR GÖK (&quot;biz&quot;, &quot;bize&quot; veya &quot;bizim&quot;) mobil uygulamamız Zodiac Flow&apos;u (&quot;Uygulama&quot;) kullandığınızda sizin hakkınızda bilgi toplama, kullanma ve paylaşma şeklimizi açıklar.
+                                        Bu Gizlilik Politikası, Zodiac Flow: Mood Tracker mobil uygulamasını kullandığınızda bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar.
                                     </p>
                                 </section>
 
                                 {/* Information Collection */}
                                 <section id="information-collection" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">Topladığımız Bilgiler</h2>
-                                    <p className="text-neutral-600 mb-4">
-                                        [PLACEHOLDER: Veri toplama hakkında gerçek bilgilerle değiştirin]
-                                    </p>
-                                    <h3 className="text-lg font-semibold text-neutral-800 mt-6 mb-3">Sağladığınız Bilgiler</h3>
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">1. Topladığımız Bilgiler</h2>
+
+                                    <h3 className="text-lg font-semibold text-neutral-800 mt-6 mb-3">1.1 Sağladığınız Kişisel Bilgiler</h3>
+                                    <p className="text-neutral-600 mb-4">Hesap oluşturduğunuzda veya Uygulamayı kullandığınızda aşağıdaki bilgileri toplayabiliriz:</p>
                                     <ul className="list-disc list-inside text-neutral-600 space-y-2">
-                                        <li>Hesap bilgileri (e-posta adresi, ad, doğum tarihi)</li>
-                                        <li>Ruh hali kayıtları ve kişisel notlar</li>
-                                        <li>Profil tercihleri ve ayarlar</li>
+                                        <li>E-posta adresi</li>
+                                        <li>Ad veya takma ad</li>
+                                        <li>Doğum tarihi</li>
+                                        <li>Burç işareti (doğum tarihinden türetilir)</li>
+                                        <li>Ruh hali kayıtları ve gönüllü olarak gönderdiğiniz isteğe bağlı notlar</li>
                                     </ul>
-                                    <h3 className="text-lg font-semibold text-neutral-800 mt-6 mb-3">Otomatik Olarak Toplanan Bilgiler</h3>
+
+                                    <h3 className="text-lg font-semibold text-neutral-800 mt-6 mb-3">1.2 Otomatik Olarak Toplanan Bilgiler</h3>
+                                    <p className="text-neutral-600 mb-4">Aşağıdaki sınırlı teknik bilgileri otomatik olarak toplayabiliriz:</p>
                                     <ul className="list-disc list-inside text-neutral-600 space-y-2">
-                                        <li>Cihaz bilgileri ve tanımlayıcılar</li>
-                                        <li>Kullanım verileri ve analizler</li>
-                                        <li>Günlük verileri</li>
+                                        <li>Ülke veya bölge (cihaz ayarlarından türetilir)</li>
+                                        <li>Analiz ve performans amaçlı cihaz ve kullanım bilgileri</li>
                                     </ul>
                                 </section>
 
-                                {/* Information Use */}
-                                <section id="information-use" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">Bilgilerinizi Nasıl Kullanıyoruz</h2>
+                                {/* Authentication */}
+                                <section id="authentication" className="mb-12">
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">2. Kimlik Doğrulama</h2>
                                     <p className="text-neutral-600 mb-4">
-                                        [PLACEHOLDER: Gerçek bilgi kullanım detayları ile değiştirin]
+                                        Zodiac Flow: Mood Tracker düzgün çalışabilmesi için hesap oluşturmanızı gerektirir. Desteklediğimiz giriş yöntemleri:
                                     </p>
                                     <ul className="list-disc list-inside text-neutral-600 space-y-2">
-                                        <li>Hizmetlerimizi sağlamak ve geliştirmek için</li>
-                                        <li>Deneyiminizi kişiselleştirmek için</li>
-                                        <li>Güncellemeler ve özellikler hakkında sizinle iletişim kurmak için</li>
-                                        <li>Güvenliği sağlamak ve dolandırıcılığı önlemek için</li>
+                                        <li>E-posta ve şifre</li>
+                                        <li>Google ile Giriş</li>
+                                        <li>Apple ile Giriş</li>
+                                    </ul>
+                                    <p className="text-neutral-600 mt-4">
+                                        Misafir veya anonim erişim mevcut değildir.
+                                    </p>
+                                </section>
+
+                                {/* Advertising */}
+                                <section id="advertising" className="mb-12">
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">3. Reklamcılık</h2>
+                                    <p className="text-neutral-600 mb-4">
+                                        Zodiac Flow: Mood Tracker ücretsiz abonelik planında Google AdMob kullanarak reklamlar görüntüler.
+                                    </p>
+                                    <ul className="list-disc list-inside text-neutral-600 space-y-2">
+                                        <li>Reklamlar, cihaz ayarlarınıza ve onayınıza bağlı olarak kişiselleştirilmiş veya kişiselleştirilmemiş olabilir.</li>
+                                        <li>Aktif premium aboneliği olan kullanıcılar reklam görmez.</li>
+                                        <li>Reklam teknolojileri, reklamları sunmak için gerektiğinde cihaz tanımlayıcılarını kullanabilir.</li>
                                     </ul>
                                 </section>
 
-                                {/* Data Storage */}
-                                <section id="data-storage" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">Veri Saklama ve Güvenlik</h2>
+                                {/* Payments */}
+                                <section id="payments" className="mb-12">
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">4. Ödemeler ve Abonelikler</h2>
                                     <p className="text-neutral-600 mb-4">
-                                        [PLACEHOLDER: Gerçek veri saklama ve güvenlik bilgileri ile değiştirin]
+                                        Zodiac Flow: Mood Tracker, Apple Uygulama İçi Satın Almalar aracılığıyla isteğe bağlı ücretli abonelikler sunar:
+                                    </p>
+                                    <ul className="list-disc list-inside text-neutral-600 space-y-2">
+                                        <li>Aylık ve yıllık abonelik planları</li>
+                                        <li>Uygun kullanıcılar için 7 günlük ücretsiz deneme</li>
+                                    </ul>
+                                    <p className="text-neutral-600 mt-4">
+                                        Tüm ödemeler, yenilemeler ve iptaller Apple tarafından yönetilir. Ödeme bilgilerini toplamıyor veya saklamıyoruz.
+                                    </p>
+                                </section>
+
+                                {/* Analytics */}
+                                <section id="analytics" className="mb-12">
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">5. Analitik</h2>
+                                    <p className="text-neutral-600 mb-4">
+                                        Kullanıcıların Uygulama ile nasıl etkileşime girdiğini anlamak, performansı iyileştirmek ve sorunları gidermek için Supabase Analytics kullanıyoruz.
                                     </p>
                                     <p className="text-neutral-600">
-                                        Kişisel bilgilerinizi korumak için sektör standardı güvenlik önlemleri kullanıyoruz. Verileriniz, durağan ve aktarım halinde şifreleme ile Supabase bulut altyapısı kullanılarak güvenli bir şekilde saklanmaktadır.
+                                        Analitik verileri toplu biçimde toplanır ve kullanıcıları kişisel olarak tanımlamak için kullanılmaz.
                                     </p>
                                 </section>
 
-                                {/* Third Party */}
-                                <section id="third-party" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">Üçüncü Taraf Hizmetleri</h2>
+                                {/* Push Notifications */}
+                                <section id="notifications" className="mb-12">
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">6. Bildirimler</h2>
                                     <p className="text-neutral-600 mb-4">
-                                        [PLACEHOLDER: Gerçek üçüncü taraf hizmetleri bilgileri ile değiştirin]
+                                        Zodiac Flow: Mood Tracker, kullanıcıları ruh hallerini kaydetmeye teşvik etmek gibi hatırlatma amaçlı push bildirimleri gönderebilir.
                                     </p>
+                                    <ul className="list-disc list-inside text-neutral-600 space-y-2">
+                                        <li>Bildirimler pazarlama veya reklamcılık için kullanılmaz.</li>
+                                        <li>Bildirimleri istediğiniz zaman cihaz ayarlarınızdan devre dışı bırakabilirsiniz.</li>
+                                    </ul>
+                                </section>
+
+                                {/* Data Sharing */}
+                                <section id="data-sharing" className="mb-12">
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">7. Veri Paylaşımı</h2>
+                                    <p className="text-neutral-600 mb-4">
+                                        Kişisel verilerinizi satmıyoruz.
+                                    </p>
+                                    <p className="text-neutral-600 mb-4">
+                                        Sınırlı verileri yalnızca güvenilir hizmet sağlayıcılarla (Google ve Apple gibi) aşağıdaki amaçlarla paylaşabiliriz:
+                                    </p>
+                                    <ul className="list-disc list-inside text-neutral-600 space-y-2">
+                                        <li>Uygulama işlevselliği</li>
+                                        <li>Kimlik doğrulama</li>
+                                        <li>Analitik</li>
+                                        <li>Reklam sunumu</li>
+                                    </ul>
+                                </section>
+
+                                {/* Data Retention */}
+                                <section id="data-retention" className="mb-12">
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">8. Veri Saklama</h2>
                                     <p className="text-neutral-600">
-                                        Uygulamamız, sizi tanımlamak için kullanılan bilgileri toplayan üçüncü taraf hizmetleri kullanabilir. Bunlar:
+                                        Kişisel verileriniz yalnızca Uygulamanın işlevselliğini sağlamak için gerekli olduğu sürece veya hesabınızı silene kadar saklanır.
                                     </p>
-                                    <ul className="list-disc list-inside text-neutral-600 space-y-2 mt-4">
-                                        <li>Apple App Store (uygulama dağıtımı ve uygulama içi satın almalar için)</li>
-                                        <li>RevenueCat (abonelik yönetimi için)</li>
-                                        <li>Supabase (arka uç hizmetleri için)</li>
-                                    </ul>
-                                </section>
-
-                                {/* Your Rights */}
-                                <section id="your-rights" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">Haklarınız</h2>
-                                    <p className="text-neutral-600 mb-4">
-                                        [PLACEHOLDER: Gerçek kullanıcı hakları bilgileri ile değiştirin]
-                                    </p>
-                                    <p className="text-neutral-600">Şu haklara sahipsiniz:</p>
-                                    <ul className="list-disc list-inside text-neutral-600 space-y-2 mt-4">
-                                        <li>Hakkınızda tuttuğumuz kişisel verilere erişim</li>
-                                        <li>Yanlış verilerin düzeltilmesini talep etme</li>
-                                        <li>Verilerinizin silinmesini talep etme</li>
-                                        <li>Verilerinizi dışa aktarma</li>
-                                        <li>İstediğiniz zaman onayı geri çekme</li>
-                                    </ul>
                                 </section>
 
                                 {/* Children */}
                                 <section id="children" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">Çocukların Gizliliği</h2>
-                                    <p className="text-neutral-600">
-                                        [PLACEHOLDER: Gerçek çocuk gizliliği politikası ile değiştirin]
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">9. Çocukların Gizliliği</h2>
+                                    <p className="text-neutral-600 mb-4">
+                                        Zodiac Flow 13 yaşın altındaki çocuklara yönelik değildir.
                                     </p>
+                                    <p className="text-neutral-600">
+                                        13 yaşın altındaki çocuklardan bilerek kişisel veri toplamıyoruz. Bir çocuğun bize kişisel bilgi sağladığına inanıyorsanız, verileri silebilmemiz için lütfen bizimle iletişime geçin.
+                                    </p>
+                                </section>
+
+                                {/* Your Rights */}
+                                <section id="your-rights" className="mb-12">
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">10. Haklarınız</h2>
+                                    <p className="text-neutral-600 mb-4">Konumunuza bağlı olarak aşağıdaki haklara sahip olabilirsiniz:</p>
+                                    <ul className="list-disc list-inside text-neutral-600 space-y-2">
+                                        <li>Kişisel verilerinize erişim</li>
+                                        <li>Verilerinizin düzeltilmesini veya silinmesini talep etme</li>
+                                        <li>Uygun olduğunda onayı geri çekme</li>
+                                    </ul>
                                     <p className="text-neutral-600 mt-4">
-                                        Hizmetimiz 13 yaşın altındaki çocuklara yönelik değildir. 13 yaşın altındaki çocuklardan bilerek kişisel bilgi toplamıyoruz.
+                                        Talepler aşağıdaki e-posta adresinden bizimle iletişime geçilerek yapılabilir.
                                     </p>
                                 </section>
 
                                 {/* Changes */}
                                 <section id="changes" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">Politika Değişiklikleri</h2>
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">11. Politika Değişiklikleri</h2>
                                     <p className="text-neutral-600">
-                                        [PLACEHOLDER: Gerçek politika değişikliği bildirim detayları ile değiştirin]
-                                    </p>
-                                    <p className="text-neutral-600 mt-4">
-                                        Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Herhangi bir değişikliği, yeni Gizlilik Politikasını bu sayfada yayınlayarak ve &quot;Son güncelleme&quot; tarihini güncelleyerek size bildireceğiz.
+                                        Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Değişiklikler &quot;Son güncelleme&quot; tarihi güncellenerek yansıtılacaktır.
                                     </p>
                                 </section>
 
                                 {/* Contact */}
                                 <section id="contact" className="mb-12">
-                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">İletişim</h2>
+                                    <h2 className="text-2xl font-bold text-neutral-900 mb-4">12. İletişim</h2>
                                     <p className="text-neutral-600 mb-4">
-                                        Bu Gizlilik Politikası hakkında sorularınız varsa, lütfen bizimle iletişime geçin:
+                                        Bu Gizlilik Politikası hakkında sorularınız veya endişeleriniz için lütfen bizimle iletişime geçin:
                                     </p>
                                     <div className="card p-6 bg-pastel-purple/30">
                                         <p className="text-neutral-700">
-                                            <strong>E-posta:</strong> nurcabbargok@gmail.com
+                                            <strong>📧 E-posta:</strong> n.cabbargok@gmail.com
                                         </p>
                                         <Link
                                             href="/tr/support/"
