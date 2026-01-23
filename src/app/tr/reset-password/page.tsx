@@ -5,7 +5,7 @@ import { useEffect, useState, FormEvent } from "react";
 // Supabase Configuration
 const SUPABASE_URL = "https://nieganzmbocgkoibnerr.supabase.co";
 const SUPABASE_ANON_KEY =
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5pZWdhbnptYm9jZ2tvaWJuZXJyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzM3NDQ3NzYsImV4cCI6MjA0OTMyMDc3Nn0.kUWGEg8rpvHCNwKMUClHp0bDqWTuRlffcIkmZ7r2Xxw";
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5pZWdhbnptYm9jZ2tvaWJuZXJyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjU0ODAzOTUsImV4cCI6MjA4MTA1NjM5NX0.ikizZoin7gwCFn5h-PvvBRzORt_p-PTqCFcne51hQxw";
 
 type PageState = "loading" | "form" | "success" | "error";
 
